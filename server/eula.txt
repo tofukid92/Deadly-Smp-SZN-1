@@ -1,0 +1,2 @@
+#minecraft eula :D -ThunderGod12650
+eula=true
