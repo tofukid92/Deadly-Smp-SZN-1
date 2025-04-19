@@ -11,7 +11,7 @@ listener_01:
   server_icon: server-icon.png
   server_motd:
   - '&a               A EaglerCraft Server'
-  - '&7Created By Shadow Network!'
+  - '&7Created By Ryan Norshare!'
   allow_motd: true
   allow_query: true
   min_minecraft_protocol: 47
