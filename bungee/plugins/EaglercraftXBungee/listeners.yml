@@ -8,10 +8,10 @@ listener_01:
   forward_ip: false
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
-  server_icon: server-icon.png
+  server_icon: cp ~/Downloads/server-icon.png ~/eaglercraft-server/
   server_motd:
-  - '&a               A EaglerCraft Server'
-  - '&7Created By Ryan Norshare!'
+  - '&a               Cosmic Smp SZN 1'
+  - '&7Created By Sorenyx and Zyro!'
   allow_motd: true
   allow_query: true
   min_minecraft_protocol: 47
