@@ -1,158 +1,290 @@
-[04:10:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Microsoft Microsoft-11369942) on Linux 6.8.0-1027-azure (amd64)
-[04:10:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-224-main@0cf7315 (2025-04-07T12:01:39Z) for Minecraft 1.21.4
-[04:10:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:10:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[04:10:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+[04:53:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Microsoft Microsoft-11369942) on Linux 6.8.0-1027-azure (amd64)
+[04:53:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-224-main@0cf7315 (2025-04-07T12:01:39Z) for Minecraft 1.21.4
+[04:53:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:53:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[04:53:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - ViaBackwards (5.2.1), ViaRewind (4.0.5), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.2.1)
-[04:10:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:10:33] [ServerMain/WARN]: Failed to load world data from ./world/level.dat
-java.nio.file.AccessDeniedException: ./world/level.dat
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
-	at net.minecraft.nbt.NbtIo.readCompressed(NbtIo.java:33) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagRaw(LevelStorageSource.java:222) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagFixed(LevelStorageSource.java:226) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:504) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:495) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.Main.main(Main.java:190) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[04:10:33] [ServerMain/INFO]: Attempting to use fallback
-[04:10:36] [ServerMain/INFO]: Loaded 1370 recipes
-[04:10:36] [ServerMain/INFO]: Loaded 1481 advancements
-[04:10:36] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[04:10:37] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 308.6ms
-[04:10:37] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[04:10:37] [Server thread/INFO]: Loading properties
-[04:10:37] [Server thread/INFO]: This server is running Paper version 1.21.4-224-main@0cf7315 (2025-04-07T12:01:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[04:10:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:10:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:10:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:10:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[04:10:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[04:10:39] [Server thread/INFO]: Default game type: SURVIVAL
-[04:10:39] [Server thread/INFO]: Generating keypair
-[04:10:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:10:39] [Server thread/INFO]: Using epoll channel type
-[04:10:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:10:39] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[04:10:40] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[04:10:40] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[04:10:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:10:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:10:43] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[04:10:43] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[04:10:43] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[04:10:44] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[04:10:44] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.5
-[04:10:44] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
-[04:10:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:10:44] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
-[04:10:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:10:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:10:44] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[04:10:44] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[04:10:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:10:44] [Server thread/INFO]: Preparing level "world"
-[04:10:44] [Server thread/WARN]: Failed to load world data from ./world_nether/level.dat
-java.nio.file.AccessDeniedException: ./world_nether/level.dat
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
-	at net.minecraft.nbt.NbtIo.readCompressed(NbtIo.java:33) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagRaw(LevelStorageSource.java:222) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagFixed(LevelStorageSource.java:226) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:504) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:495) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:581) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[04:10:44] [Server thread/INFO]: Attempting to use fallback
-[04:10:44] [Server thread/WARN]: Failed to load world data from ./world_the_end/level.dat
-java.nio.file.AccessDeniedException: ./world_the_end/level.dat
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
-	at net.minecraft.nbt.NbtIo.readCompressed(NbtIo.java:33) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagRaw(LevelStorageSource.java:222) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource.readLevelDataTagFixed(LevelStorageSource.java:226) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:504) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.getDataTag(LevelStorageSource.java:495) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:581) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[04:10:44] [Server thread/INFO]: Attempting to use fallback
-[04:10:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:10:45] [Server thread/INFO]: Preparing spawn area: 0%
-[04:10:46] [Server thread/INFO]: Preparing spawn area: 0%
-[04:10:46] [Server thread/INFO]: Preparing spawn area: 0%
-[04:10:46] [Server thread/INFO]: Time elapsed: 1435 ms
-[04:10:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:10:46] [Server thread/INFO]: Preparing spawn area: 0%
-[04:10:47] [Server thread/INFO]: Time elapsed: 460 ms
-[04:10:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:10:47] [Server thread/INFO]: Preparing spawn area: 0%
-[04:10:47] [Server thread/INFO]: Time elapsed: 311 ms
-[04:10:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[04:10:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[04:10:47] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[04:10:47] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
-[04:10:47] [Server thread/INFO]: [spark] Starting background profiler...
-[04:10:48] [Server thread/INFO]: Done preparing level "world" (4.280s)
-[04:10:48] [Server thread/INFO]: Running delayed init tasks
-[04:10:48] [Server thread/INFO]: Done (24.462s)! For help, type "help"
-[04:10:48] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:10:48] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.1, you're on: 5.2.1
-[04:11:27] [User Authenticator #0/INFO]: UUID of player Zyclone is b0ded050-9843-3243-96a2-42cc820bf1e5
-[04:11:27] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[04:11:27] [Server thread/INFO]: Zyclone joined the game
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[04:11:28] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
-[04:11:28] [Server thread/INFO]: Zyclone[/[0:0:0:0:0:0:0:1]:47554] logged in with entity id 56 at ([world]5161.504324266429, 68.0, -1396.7555028042439)
-[04:11:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2567ms or 51 ticks behind
-[04:12:00] [Server thread/INFO]: Zyclone issued server command: /give Zyclone minecraft:golden_apple 64
-[04:12:00] [Server thread/INFO]: [Zyclone: Gave 64 [Golden Apple] to Zyclone]
-[04:13:09] [Server thread/INFO]: Zyclone issued server command: /summon minecraft:iron_golem
-[04:13:09] [Server thread/INFO]: [Zyclone: Summoned new Iron Golem]
-[04:13:10] [Server thread/INFO]: Zyclone issued server command: /summon minecraft:iron_golem
-[04:13:10] [Server thread/INFO]: [Zyclone: Summoned new Iron Golem]
-[04:13:10] [Server thread/INFO]: Zyclone issued server command: /summon minecraft:iron_golem
-[04:13:10] [Server thread/INFO]: [Zyclone: Summoned new Iron Golem]
-[04:13:11] [Server thread/INFO]: Zyclone issued server command: /summon minecraft:iron_golem
-[04:13:11] [Server thread/INFO]: [Zyclone: Summoned new Iron Golem]
-[04:13:11] [Server thread/INFO]: Zyclone issued server command: /summon minecraft:iron_golem
-[04:13:11] [Server thread/INFO]: [Zyclone: Summoned new Iron Golem]
-[04:13:12] [Server thread/INFO]: Zyclone has made the advancement [Acquire Hardware]
-[04:15:24] [Server thread/INFO]: Zyclone issued server command: /give Zyclone minecraf:brezzerod
+[04:53:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:53:47] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[04:53:47] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[04:53:48] [ServerMain/INFO]: No existing world data, creating new world
+[04:53:50] [ServerMain/INFO]: Loaded 1370 recipes
+[04:53:50] [ServerMain/INFO]: Loaded 1481 advancements
+[04:53:50] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[04:53:50] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 322.1ms
+[04:53:50] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[04:53:50] [Server thread/INFO]: Loading properties
+[04:53:50] [Server thread/INFO]: This server is running Paper version 1.21.4-224-main@0cf7315 (2025-04-07T12:01:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[04:53:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:53:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:53:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:53:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:53:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:53:52] [Server thread/INFO]: Default game type: SURVIVAL
+[04:53:52] [Server thread/INFO]: Generating keypair
+[04:53:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:53:53] [Server thread/INFO]: Using epoll channel type
+[04:53:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:53:53] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[04:53:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[04:53:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[04:53:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:53:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:53:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:53:55] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:53:56] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[04:53:56] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[04:53:56] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.5
+[04:53:56] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[04:53:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:53:56] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[04:53:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:53:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:53:56] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[04:53:56] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[04:53:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:53:56] [Server thread/INFO]: Preparing level "world"
+[04:54:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:54:15] [Server thread/INFO]: Preparing spawn area: 2%
+[04:54:15] [Server thread/INFO]: Preparing spawn area: 2%
+[04:54:16] [Server thread/INFO]: Preparing spawn area: 2%
+[04:54:16] [Server thread/INFO]: Preparing spawn area: 2%
+[04:54:17] [Server thread/INFO]: Preparing spawn area: 2%
+[04:54:17] [Server thread/INFO]: Preparing spawn area: 2%
+[04:54:18] [Server thread/INFO]: Preparing spawn area: 2%
+[04:54:18] [Server thread/INFO]: Preparing spawn area: 4%
+[04:54:19] [Server thread/INFO]: Preparing spawn area: 18%
+[04:54:19] [Server thread/INFO]: Preparing spawn area: 18%
+[04:54:20] [Server thread/INFO]: Preparing spawn area: 18%
+[04:54:20] [Server thread/INFO]: Preparing spawn area: 18%
+[04:54:21] [Server thread/INFO]: Preparing spawn area: 28%
+[04:54:21] [Server thread/INFO]: Preparing spawn area: 38%
+[04:54:22] [Server thread/INFO]: Preparing spawn area: 51%
+[04:54:22] [Server thread/INFO]: Preparing spawn area: 51%
+[04:54:23] [Server thread/INFO]: Preparing spawn area: 63%
+[04:54:23] [Server thread/INFO]: Preparing spawn area: 63%
+[04:54:24] [Server thread/INFO]: Time elapsed: 8985 ms
+[04:54:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:54:24] [Server thread/INFO]: Preparing spawn area: 12%
+[04:54:24] [Server thread/INFO]: Preparing spawn area: 12%
+[04:54:25] [Server thread/INFO]: Preparing spawn area: 32%
+[04:54:25] [Server thread/INFO]: Preparing spawn area: 59%
+[04:54:26] [Server thread/INFO]: Preparing spawn area: 75%
+[04:54:26] [Server thread/INFO]: Time elapsed: 2097 ms
+[04:54:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:54:26] [Server thread/INFO]: Preparing spawn area: 2%
+[04:54:26] [Server thread/INFO]: Preparing spawn area: 32%
+[04:54:26] [Server thread/INFO]: Time elapsed: 841 ms
+[04:54:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[04:54:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[04:54:27] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[04:54:27] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[04:54:27] [Server thread/INFO]: [spark] Starting background profiler...
+[04:54:27] [Server thread/INFO]: Done preparing level "world" (30.915s)
+[04:54:27] [Server thread/INFO]: Running delayed init tasks
+[04:54:27] [Server thread/INFO]: Done (49.725s)! For help, type "help"
+[04:54:27] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:54:28] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.1, you're on: 5.2.1
+[04:54:33] [User Authenticator #0/INFO]: UUID of player Sorenyx is bef1b2fe-3860-3260-89b6-60d50ab51343
+[04:54:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[04:54:34] [Server thread/INFO]: Sorenyx joined the game
+[04:54:34] [Server thread/INFO]: Sorenyx[/[0:0:0:0:0:0:0:1]:58110] logged in with entity id 51 at ([world]-225.5, 67.0, -96.5)
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[04:54:35] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[04:55:06] [User Authenticator #0/INFO]: UUID of player Zyclone is b0ded050-9843-3243-96a2-42cc820bf1e5
+[04:55:07] [Server thread/INFO]: Zyclone joined the game
+[04:55:07] [Server thread/INFO]: Zyclone[/[0:0:0:0:0:0:0:1]:34340] logged in with entity id 207 at ([world]-225.5, 64.0, -104.5)
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[04:55:07] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[04:55:27] [Server thread/INFO]: Zyclone issued server command: /locate structure minecraft:village_plains
+[04:55:29] [Server thread/INFO]: Locating element minecraft:village_plains took 2734 ms
+[04:55:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2728ms or 54 ticks behind
+[04:55:38] [Server thread/INFO]: Zyclone issued server command: /tp @s -368 ~ -1408
+[04:55:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.21.2->1.21) Mixed combinations of relative and absolute delta movements are not supported for 1.21.1 players. This will result in incorrect movement for the player. 
+[04:55:38] [Server thread/INFO]: [Zyclone: Teleported Zyclone to -367.500000, 64.000000, -1407.500000]
+[04:55:48] [Server thread/INFO]: Zyclone issued server command: /tp @a
+[04:55:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3811ms or 76 ticks behind
+[04:55:54] [Server thread/INFO]: Zyclone suffocated in a wall
+[04:56:01] [Server thread/INFO]: Zyclone issued server command: /gamemode creative
+[04:56:01] [Server thread/INFO]: [Zyclone: Set own game mode to Creative Mode]
+[04:56:04] [Server thread/INFO]: Zyclone issued server command: /tp @s -368 ~ -1408
+[04:56:04] [Server thread/INFO]: [Zyclone: Teleported Zyclone to -367.500000, 64.000000, -1407.500000]
+[04:56:12] [Server thread/INFO]: Sorenyx issued server command: /gamemode creative
+[04:56:12] [Server thread/INFO]: [Sorenyx: Set own game mode to Creative Mode]
+[04:56:18] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[04:56:18] [Server thread/INFO]: Zyclone was killed
+[04:56:18] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[04:56:26] [Server thread/INFO]: Zyclone issued server command: /tp @s -368 74 -1408
+[04:56:26] [Server thread/INFO]: [Zyclone: Teleported Zyclone to -367.500000, 74.000000, -1407.500000]
+[04:56:50] [Server thread/INFO]: Sorenyx issued server command: /locate structure minecraft:village_plains
+[04:56:50] [Server thread/INFO]: Locating element minecraft:village_plains took 0 ms
+[04:56:53] [Server thread/INFO]: Sorenyx issued server command: /tp @s -368 ~ -1408
+[04:56:53] [Server thread/INFO]: [Sorenyx: Teleported Sorenyx to -367.500000, 77.563972, -1407.500000]
+[04:57:18] [Server thread/INFO]: Sorenyx issued server command: /locate structure minecraft:village_plains
+[04:57:18] [Server thread/INFO]: Locating element minecraft:village_plains took 3 ms
+[04:57:27] [Server thread/INFO]: Sorenyx issued server command: /locate structure minecraft:village_taiga
+[04:57:30] [Server thread/INFO]: Locating element minecraft:village_taiga took 2586 ms
+[04:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2568ms or 51 ticks behind
+[04:57:32] [Server thread/INFO]: Sorenyx issued server command: /tp @s 880 ~ 320
+[04:57:32] [Server thread/INFO]: [Sorenyx: Teleported Sorenyx to 880.500000, 96.516956, 320.500000]
+[04:57:42] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.4-224-0cf7315 (MC: 1.21.4) ---
+[04:57:42] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[04:57:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[04:57:42] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[04:57:42] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
+[04:57:42] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 55,20) in 'world']
+[04:57:42] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=world, chunkX=55, chunkZ=20, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:initialize_light}, currentGenStatus=minecraft:initialize_light, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=null, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=4, fullNeighbourChunksLoadedBitset=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
+[04:57:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[04:57:42] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[04:57:42] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
+[04:57:42] [Paper Watchdog Thread/ERROR]: 	Stack:
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.yield0(Native Method)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.yield(Thread.java:445)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:149)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:140)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.managedBlock(ServerChunkCache.java:792)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.syncLoad(ServerChunkCache.java:117)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunkFallback(ServerChunkCache.java:151)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:321)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:1023)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunkAt(Level.java:1012)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getFluidState(Level.java:1372)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.updateFluidOnEyes(Entity.java:1926)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.baseTick(Entity.java:849)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:445)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.tick(Entity.java:816)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3116)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.player.Player.tick(Player.java:298)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:872)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:342)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:607)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:256)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1762)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:427)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000788230dac108.run(Unknown Source)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+[04:57:42] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+[04:57:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[04:57:42] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[04:57:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[04:57:46] [Server thread/INFO]: Sorenyx lost connection: Disconnected
+[04:57:46] [Server thread/INFO]: Sorenyx left the game
+[04:57:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3731ms or 74 ticks behind
+[04:57:50] [Server thread/INFO]: Zyclone issued server command: /give @a minecraft:dirt_path
+[04:57:50] [Server thread/INFO]: [Zyclone: Gave 1 [Dirt Path] to Zyclone]
+[04:58:01] [User Authenticator #1/INFO]: UUID of player Sorenyx is bef1b2fe-3860-3260-89b6-60d50ab51343
+[04:58:01] [Server thread/INFO]: Sorenyx joined the game
+[04:58:01] [Server thread/INFO]: Sorenyx[/[0:0:0:0:0:0:0:1]:56788] logged in with entity id 1403 at ([world]880.5, 96.51695642513828, 320.5)
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[04:58:01] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[04:58:49] [Server thread/INFO]: Sorenyx issued server command: /locate structure minecraft:village_plains
+[04:58:50] [Server thread/INFO]: Locating element minecraft:village_plains took 858 ms
+[04:58:53] [Server thread/INFO]: Sorenyx issued server command: /tp @s 1264 ~ 624
+[04:58:53] [Server thread/INFO]: [Sorenyx: Teleported Sorenyx to 1264.500000, 67.284273, 624.500000]
+[04:58:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4773ms or 95 ticks behind
+[04:59:09] [Server thread/INFO]: Sorenyx lost connection: Disconnected
+[04:59:09] [Server thread/INFO]: Sorenyx left the game
+[04:59:16] [User Authenticator #2/INFO]: UUID of player Sorenyx is bef1b2fe-3860-3260-89b6-60d50ab51343
+[04:59:16] [Server thread/INFO]: Sorenyx joined the game
+[04:59:16] [Server thread/INFO]: Sorenyx[/[0:0:0:0:0:0:0:1]:39630] logged in with entity id 1947 at ([world]1264.5, 67.28427274873388, 624.5)
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[04:59:16] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[04:59:58] [Server thread/INFO]: Sorenyx issued server command: /tp Zyclone
+[04:59:58] [Server thread/INFO]: [Sorenyx: Teleported Sorenyx to Zyclone]
+[05:01:17] [Server thread/INFO]: Zyclone issued server command: /fill -500 76 -1371
+[05:01:19] [Server thread/INFO]: Sorenyx issued server command: /fill ~ ~ ~ ~ ~ ~
+[05:01:31] [Server thread/INFO]: Sorenyx issued server command: /fill 9826354 dirt
+[05:01:33] [Server thread/INFO]: Zyclone issued server command: /fill -500 76 -1371 -473 75 -1345 air
+[05:01:33] [Server thread/INFO]: [Zyclone: Successfully filled 591 block(s)]
+[05:02:16] [Server thread/INFO]: Zyclone issued server command: /fill -473 76 -1371
+[05:02:28] [Server thread/INFO]: Zyclone issued server command: /fill -473 76 -1371 -500 75 -1346
+[05:02:34] [Server thread/INFO]: Zyclone issued server command: /fill -473 76 -1371 -500 75 -1346 minecraft:grass_block
+[05:02:34] [Server thread/INFO]: [Zyclone: Successfully filled 1451 block(s)]
+[05:04:32] [Server thread/INFO]: Zyclone issued server command: /tick
+[05:06:36] [Server thread/INFO]: Zyclone issued server command: /recipe
+[05:07:03] [Server thread/INFO]: Zyclone issued server command: /setworldspawn
+[05:07:03] [Server thread/INFO]: [Zyclone: Set the world spawn point to -484, 76, -1362 [0.0]]
+[05:07:12] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[05:07:12] [Server thread/INFO]: Zyclone was killed
+[05:07:12] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[05:07:22] [Server thread/INFO]: Zyclone issued server command: /setworldspawn
+[05:07:22] [Server thread/INFO]: [Zyclone: Set the world spawn point to -485, 76, -1361 [0.0]]
+[05:07:24] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[05:07:24] [Server thread/INFO]: Zyclone was killed
+[05:07:24] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[05:07:33] [Server thread/INFO]: Sorenyx issued server command: /setworldspawn
+[05:07:33] [Server thread/INFO]: [Sorenyx: Set the world spawn point to -485, 76, -1361 [0.0]]
+[05:07:37] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[05:07:37] [Server thread/INFO]: Zyclone was killed
+[05:07:37] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[05:07:46] [Server thread/INFO]: Villager Villager['Leatherworker'/691, uuid='ba694e4b-6852-49ed-8ffa-a5ee7f377c32', l='ServerLevel[world]', x=-384.71, y=94.90, z=-1401.32, cpos=[-25, -88], tl=13088, v=true] died, message: 'Leatherworker was slain by Zombie'
+[05:07:48] [Server thread/INFO]: Sorenyx issued server command: /setworldspawn
+[05:07:48] [Server thread/INFO]: [Sorenyx: Set the world spawn point to -484, 76, -1361 [0.0]]
+[05:07:55] [Server thread/INFO]: Sorenyx issued server command: /setworldspawn
+[05:07:55] [Server thread/INFO]: [Sorenyx: Set the world spawn point to -485, 78, -1377 [0.0]]
+[05:07:57] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[05:07:57] [Server thread/INFO]: Zyclone was killed
+[05:07:57] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[05:08:17] [Server thread/INFO]: Zyclone issued server command: /setworldspawn
+[05:08:17] [Server thread/INFO]: [Zyclone: Set the world spawn point to -484, 77, -1361 [0.0]]
+[05:08:18] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[05:08:18] [Server thread/INFO]: Zyclone was killed
+[05:08:18] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[05:08:32] [Server thread/INFO]: Zyclone issued server command: /setworldspawn
+[05:08:32] [Server thread/INFO]: [Zyclone: Set the world spawn point to -492, 77, -1359 [0.0]]
+[05:08:35] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[05:08:35] [Server thread/INFO]: Zyclone was killed
+[05:08:35] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[05:08:42] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[05:08:42] [Server thread/INFO]: Zyclone was killed
+[05:08:42] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[05:08:46] [Server thread/INFO]: Sorenyx issued server command: /kill Zyclone
+[05:08:46] [Server thread/INFO]: Zyclone was killed
+[05:08:46] [Server thread/INFO]: [Sorenyx: Killed Zyclone]
+[05:08:54] [Server thread/INFO]: Zyclone issued server command: /kill @a
+[05:08:54] [Server thread/INFO]: Sorenyx was killed
+[05:08:54] [Server thread/INFO]: Zyclone was killed
+[05:08:54] [Server thread/INFO]: [Zyclone: Killed 2 entities]
+[05:09:18] [Server thread/INFO]: Sorenyx issued server command: /setspawn
+[05:09:23] [Server thread/INFO]: Zyclone issued server command: /time set day
+[05:09:23] [Server thread/INFO]: [Zyclone: Set the time to 1000]
+[05:09:37] [Server thread/INFO]: Zyclone lost connection: Disconnected
+[05:09:37] [Server thread/INFO]: Zyclone left the game
+[05:09:41] [Server thread/INFO]: Sorenyx lost connection: Disconnected
+[05:09:41] [Server thread/INFO]: Sorenyx left the game
