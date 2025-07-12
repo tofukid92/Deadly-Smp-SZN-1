@@ -9,9 +9,9 @@ listener_01:
   forward_ip_header: X-Real-IP
   redirect_legacy_clients_to: 'null'
   server_icon: cp ~/Downloads/server-icon.png ~/eaglercraft-server/
-  server_motd:
-  - '&a               Cosmic Smp SZN 1'
-  - '&7Created By Sorenyx and Zyro!'
+  server_motd:'&5CO&9SM&5IC &S&9M&5P Se&9aso&5n &9 1'
+  
+
   allow_motd: true
   allow_query: true
   min_minecraft_protocol: 47
@@ -34,7 +34,7 @@ listener_01:
     page_index_name:
     - 'index.html'
     - 'index.htm'
-  allow_voice: false
+  allow_voice: true
   ratelimit:
     ip:
       enable: true
